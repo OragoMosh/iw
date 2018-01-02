@@ -377,7 +377,7 @@ define([
             spritePool.clean();
 
             this.stage.filters = [new PIXI.filters.VoidFilter()];
-            this.stage.filterArea = new PIXI.Rectangle(0, 0, w * scale, h * scale);
+            this.stage.filterArea = new PIXI.Rectangle(0, 0, w * scale * 2, h * scale);
 
             this.buildHiddenRooms(msg);
 

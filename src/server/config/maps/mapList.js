@@ -7,6 +7,7 @@ define([
 		'cave',
 		'estuary',
 		'sewer',
-		'tutorial'
+		'tutorial',
+		'arena-1'
 	];
 });

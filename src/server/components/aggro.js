@@ -126,6 +126,12 @@ define([
 			if (target == obj)
 				return false;
 			else if ((target.player) && (obj.player)) {
+				//PVP?
+				var objPvp = obj.effects.effects.find(e => (e.type == 'pvp'));
+				var targetPvp = target.effects.effects.find(e => (e.type == 'pvp'));
+				if ((objPvp) && (targetPvp))
+					return (objPvp.team != targetPvp.team);
+
 				var hasButcher = (obj.prophecies.hasProphecy('butcher')) && (target.prophecies.hasProphecy('butcher'));
 
 				if ((!target.social.party) || (!obj.social.party))

@@ -1,21 +1,21 @@
 define([
-	
-], function(
-	
+
+], function (
+
 ) {
 	return {
 		type: 'butcher',
 
-		init: function() {
-			
+		init: function () {
+
 		},
 
-		simplify: function() {
+		simplify: function () {
 			return this.type;
 		},
 
 		events: {
-			
+
 		}
 	};
 });

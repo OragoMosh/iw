@@ -3287,6 +3287,7 @@
      "spawn":"string"
     },
  "renderorder":"right-down",
+ "tiledversion":"1.0.3",
  "tileheight":8,
  "tilesets":[
         {
@@ -3520,6 +3521,6 @@
         }],
  "tilewidth":8,
  "type":"map",
- "version":"2017.05.26",
+ "version":1,
  "width":160
 }

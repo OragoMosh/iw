@@ -16,6 +16,7 @@ define([
 	factions
 ) {
 	var commandRoles = {
+		arena: 0,
 		join: 0,
 		leave: 0,
 		unEq: 0,
@@ -85,6 +86,47 @@ define([
 		},
 
 		//actions
+		arena: function (team) {
+			var obj = this.obj;
+
+			var fnRezone = function (zone, x, y) {
+				obj.fireEvent('beforeRezone');
+
+				obj.destroyed = true;
+
+				var simpleObj = obj.getSimple(true, true);
+				simpleObj.x = x;
+				simpleObj.y = y;
+
+				var e = simpleObj.components.find(c => (c.type == 'effects'));
+				if (zone == 'arena-1') {
+					e.effects.push({
+						type: 'pvp',
+						team: team,
+						ttl: 99999999
+					});
+				} else
+					e.effects.spliceWhere(e => (e.type == 'pvp'));
+
+				process.send({
+					method: 'rezone',
+					id: obj.serverId,
+					args: {
+						obj: simpleObj,
+						newZone: zone
+					}
+				});
+			};
+
+			if (team == 'leave') {
+				fnRezone('tutorial', 132, 118);
+
+				return;
+			}
+
+			fnRezone('arena-1', 14, 19);
+		},
+
 		join: function (value) {
 			if (typeof (value) != 'string')
 				return;
