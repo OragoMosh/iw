@@ -1,9 +1,9 @@
 define([
-	'misc/fileLister',
+	'fs',
 	'misc/events',
 	'util'
 ], function (
-	fileLister,
+	fs,
 	events,
 	util
 ) {
@@ -14,9 +14,9 @@ define([
 
 		init: function (_cbDone) {
 			cbDone = _cbDone;
-			var modList = fileLister.getFolderList('mods');
+			var json = JSON.parse(fs.readFileSync('mods.json', 'utf8'));
 
-			modList.forEach(function (m) {
+			json.modList.forEach(function (m) {
 				this.waiting[m] = 0;
 				require(['mods/' + m + '/index'], this.onGetMod.bind(this, m));
 			}, this);
