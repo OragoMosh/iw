@@ -18,21 +18,21 @@ define([
 
 			json.modList.forEach(function (m) {
 				this.waiting[m] = 0;
-				require(['mods/' + m + '/index'], this.onGetMod.bind(this, m));
+				require([m], this.onGetMod.bind(this, m));
 			}, this);
 		},
 
 		onGetMod: function (name, mod) {
 			mod.events = events;
-			mod.folderName = 'server/mods/' + name;
-			mod.relativeFolderName = 'mods/' + name;
+			mod.folderName = 'server/node_modules/' + name;
+			mod.relativeFolderName = 'node_modules/' + name;
 
 			var list = (mod.extraScripts || []);
 			var lLen = list.length;
 			this.waiting[name] = lLen;
 
 			for (var i = 0; i < lLen; i++) {
-				require(['mods/' + name + '/' + list[i]], this.onGetExtra.bind(this, name, mod));;
+				require(['node_modules/' + name + '/' + list[i]], this.onGetExtra.bind(this, name, mod));;
 			}
 
 			if (this.waiting[name] == 0) {
@@ -45,7 +45,7 @@ define([
 		},
 
 		onGetExtra: function (name, mod, extra) {
-			extra.folderName = 'server/mods/' + name;
+			extra.folderName = 'server/node_modules/' + name;
 
 			this.waiting[name]--;
 			if (this.waiting[name] == 0) {
