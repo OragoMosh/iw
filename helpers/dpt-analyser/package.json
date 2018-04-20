@@ -1,0 +1,10 @@
+{
+	"name": "",
+	"version": "0.0.1",
+	"description": "",
+	"dependencies": {
+		"babar": "^0.2.0",
+		"extend": "^3.0.1",
+		"sqlite3": "^4.0.0"
+	}
+}
