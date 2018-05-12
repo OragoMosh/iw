@@ -3,6 +3,7 @@ var babar = require('babar');
 
 var analyser = {
 	results: {
+		ms: null,
 		hp: null,
 		dpt: null,
 		ttk: null,
@@ -45,15 +46,55 @@ var analyser = {
 			return val;
 		});
 
+		this.calcMs(chars);
 		this.calcHp(chars);
 		this.calcDpt(chars);
 		this.calcTtk(chars);
 		this.calcIdealTtk(chars);
 
+		this.plot('ms');
 		this.plot('hp');
 		this.plot('dpt');
 		this.plot('ttk');
 		this.plot('idealTtk');
+	},
+
+	calcMs: function (chars) {
+		var res = {};
+		var counts = {};
+
+		for (var i = 1; i <= 20; i++) {
+			res[i] = 0;
+			counts[i] = 0;
+		}
+
+		chars.forEach(function (c) {
+			if ((!c.stats) || (c.name == 'Waffle'))
+				return;
+
+			var level = c.stats.values.level;
+			var s = [0, 0, 0];
+
+			c.inventory.items.forEach(function (i) {
+				if ((!i.eq) || (!i.stats))
+					return;
+
+				s[0] += (i.stats.int || 0);
+				s[1] += (i.stats.dex || 0);
+				s[2] += (i.stats.str || 0);
+			}, 0);
+
+			var ms = Math.max(s[0], s[1], s[2]);
+
+			res[level] += (ms + level);
+			counts[level]++;
+		});
+
+		for (var p in res) {
+			res[p] = ~~(res[p] / counts[p]);
+		}
+
+		this.results.ms = res;
 	},
 
 	calcHp: function (chars) {
