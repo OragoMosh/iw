@@ -1,0 +1,1513 @@
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+error: Forever detected script was killed by signal: SIGKILL
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+error: Forever detected script was killed by signal: SIGKILL
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/client/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/client/favicon.ico'
+Error Logged: TypeError: Cannot read property 'amount' of undefined
+TypeError: Cannot read property 'amount' of undefined
+    at Object.onGetText (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/config/itemEffects/gainStat.js:22:36)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/components/inventory.js:794:35
+    at Array.forEach (<anonymous>)
+    at Object.getItem (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/components/inventory.js:784:17)
+    at Object.craft (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/components/workbench.js:156:17)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/objects/objBase.js:206:21)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/world/instancer.js:194:8)
+    at process.on.m (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/world/worker.js:94:22)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #1
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error Logged: TypeError: Cannot read property 'amount' of undefined
+TypeError: Cannot read property 'amount' of undefined
+    at Object.onGetText (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/config/itemEffects/gainStat.js:22:36)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/components/inventory.js:794:35
+    at Array.forEach (<anonymous>)
+    at Object.getItem (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/components/inventory.js:784:17)
+    at Object.craft (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/components/workbench.js:156:17)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/objects/objBase.js:206:21)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/world/instancer.js:194:8)
+    at process.on.m (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/world/worker.js:94:22)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #2
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/client/libs/js/iframe.js'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/client/axis2/index.html'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/client/libs/js/iframe.js'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/client/libs/js/iframe.js'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/client/recordings/index.html'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/client/a2billing/admin/Public/PP_error.php'
+Error Logged: TypeError: Cannot read property 'length' of undefined
+TypeError: Cannot read property 'length' of undefined
+    at Object.queue (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/world/syncer.js:125:11)
+    at Object.apply (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/components/wardrobe.js:106:11)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/objects/objBase.js:206:21)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/world/instancer.js:194:8)
+    at process.on.m (/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/server/world/worker.js:94:22)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #3
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/client/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/client/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-05-22-17-40/src/client/favicon.ico'
+error: Forever detected script was killed by signal: SIGKILL
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-07-23-42-54/src/client/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-07-23-42-54/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-07-23-42-54/src/client/.git/config'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-07-23-42-54/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-07-23-42-54/src/client/emamhgsvgynaloha.html'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-07-23-42-54/src/client/user/password'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-07-23-42-54/src/client/user/register'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-07-23-42-54/src/client/robots.txt'
+error: Forever detected script was killed by signal: SIGKILL
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+(node:18235) UnhandledPromiseRejectionWarning: Error: SQLITE_BUSY: database is locked
+(node:18235) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:18235) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/client/sitemap.xml'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/client/.well-known/security.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/client/favicon.ico'
+Error Logged: TypeError: node.isWall is not a function
+TypeError: node.isWall is not a function
+    at Object.isTileBlocking (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/physics.js:318:16)
+    at Object.performMove (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:247:16)
+    at Object.performQueue (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:230:23)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:76:9)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objects.js:295:7)
+    at Object.tick (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/instancer.js:241:22)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #1
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error Logged: TypeError: node.isWall is not a function
+TypeError: node.isWall is not a function
+    at Object.isTileBlocking (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/physics.js:318:16)
+    at Object.performMove (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:247:16)
+    at Object.performQueue (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:230:23)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:76:9)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objects.js:295:7)
+    at Object.tick (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/instancer.js:241:22)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #2
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error Logged: TypeError: node.isWall is not a function
+TypeError: node.isWall is not a function
+    at Object.isTileBlocking (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/physics.js:318:16)
+    at Object.performMove (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:247:16)
+    at Object.performQueue (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:230:23)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:76:9)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objects.js:295:7)
+    at Object.tick (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/instancer.js:241:22)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #3
+Server: ready
+(M estuary): Ready
+
+<--- Last few GCs --->
+
+[18219:0x40f1b10] 61601915 ms: Scavenge 53.4 (60.5) -> 52.1 (61.0) MB, 1.9 / 0.0 ms  allocation failure 
+[18219:0x40f1b10] 61604071 ms: Scavenge 53.8 (61.0) -> 52.4 (58.0) MB, 2.0 / 0.0 ms  allocation failure 
+[18219:0x40f1b10] 61604794 ms: Scavenge 53.0 (58.0) -> 52.5 (58.5) MB, 2.4 / 0.0 ms  allocation failure 
+[18219:0x40f1b10] 61605877 ms: Scavenge 53.3 (58.5) -> 52.7 (58.5) MB, 1.2 / 0.0 ms  allocation failure 
+
+
+<--- JS stacktrace --->
+
+==== JS stack trace =========================================
+
+Security context: 0x3536cb3a57c1 <JSObject>
+    1: update [/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objects.js:~285] [pc=0x1d45f4cd28e7](this=0x20b5b1255631 <Object map = 0x2428fb8f461>)
+    2: tick [/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/instancer.js:~90] [pc=0x1d45f4cfa626](this=0x1b587e784fb9 <Object map = 0x2428fb8f829>)
+    3: listOnTimeout [timers.js:~21...
+
+FATAL ERROR: Committing semi space failed. Allocation failed - process out of memory
+ 1: node::Abort() [/usr/bin/node]
+ 2: 0x11e7fec [/usr/bin/node]
+ 3: v8::Utils::ReportOOMFailure(char const*, bool) [/usr/bin/node]
+ 4: v8::internal::V8::FatalProcessOutOfMemory(char const*, bool) [/usr/bin/node]
+ 5: v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/usr/bin/node]
+ 6: v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/bin/node]
+ 7: v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationSpace) [/usr/bin/node]
+ 8: v8::internal::Runtime_AllocateInNewSpace(int, v8::internal::Object**, v8::internal::Isolate*) [/usr/bin/node]
+ 9: 0x1d45f4b042fd
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error Logged: TypeError: node.isWall is not a function
+TypeError: node.isWall is not a function
+    at Object.isTileBlocking (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/physics.js:318:16)
+    at Object.performMove (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:247:16)
+    at Object.performQueue (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:230:23)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:76:9)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objects.js:295:7)
+    at Object.tick (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/instancer.js:241:22)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #4
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+
+<--- Last few GCs --->
+
+[18235:0x3e17b10] 62064344 ms: Scavenge 53.3 (61.5) -> 52.4 (61.5) MB, 0.8 / 0.0 ms  allocation failure 
+[18235:0x3e17b10] 62065291 ms: Mark-sweep 52.6 (61.5) -> 52.2 (61.5) MB, 88.9 / 0.0 ms  testing GC in old space requested
+[18235:0x3e17b10] 62068255 ms: Scavenge 53.2 (61.5) -> 52.2 (61.5) MB, 1.2 / 0.0 ms  allocation failure 
+[18235:0x3e17b10] 62070756 ms: Scavenge 53.2 (61.5) -> 52.2 (61.5) MB, 0.7 / 0.0 ms  allocation failure 
+
+
+<--- JS stacktrace --->
+
+==== JS stack trace =========================================
+
+Security context: 0x70b09ba57c1 <JSObject>
+    1: update [/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objects.js:~285] [pc=0xe1e282e741d](this=0x3bf22ea55721 <Object map = 0x29175f783071>)
+    2: tick [/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/instancer.js:~90] [pc=0xe1e282d5966](this=0x2dbcf3ab2891 <Object map = 0x29175f787849>)
+    3: listOnTimeout [timers.js:~218...
+
+FATAL ERROR: Committing semi space failed. Allocation failed - process out of memory
+ 1: node::Abort() [/usr/bin/node]
+ 2: 0x11e7fec [/usr/bin/node]
+ 3: v8::Utils::ReportOOMFailure(char const*, bool) [/usr/bin/node]
+ 4: v8::internal::V8::FatalProcessOutOfMemory(char const*, bool) [/usr/bin/node]
+ 5: v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/usr/bin/node]
+ 6: v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/bin/node]
+ 7: v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationSpace) [/usr/bin/node]
+ 8: v8::internal::Runtime_AllocateInNewSpace(int, v8::internal::Object**, v8::internal::Isolate*) [/usr/bin/node]
+ 9: 0xe1e281842fd
+
+<--- Last few GCs --->
+
+[19197:0x277bb10]   460492 ms: Scavenge 52.7 (60.0) -> 51.7 (60.0) MB, 0.9 / 0.0 ms  allocation failure 
+[19197:0x277bb10]   462973 ms: Scavenge 52.7 (60.0) -> 51.7 (60.0) MB, 0.6 / 0.0 ms  allocation failure 
+[19197:0x277bb10]   465827 ms: Scavenge 52.7 (60.0) -> 51.7 (60.0) MB, 1.6 / 0.0 ms  allocation failure 
+[19197:0x277bb10]   468685 ms: Scavenge 52.7 (60.0) -> 51.8 (60.0) MB, 0.7 / 0.0 ms  allocation failure 
+
+
+<--- JS stacktrace --->
+
+==== JS stack trace =========================================
+
+Security context: 0x1bf1696257c1 <JSObject>
+    1: update [/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objects.js:~285] [pc=0x2dc259118214](this=0x1729f3855631 <Object map = 0x17dcb40f7e19>)
+    2: tick [/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/instancer.js:92] [bytecode=0x265b3c3982e1 offset=29](this=0x226031631f89 <Object map = 0x17dcb40e5469>)
+    3: listOnTimeo...
+
+FATAL ERROR: Committing semi space failed. Allocation failed - process out of memory
+ 1: node::Abort() [/usr/bin/node]
+ 2: 0x11e7fec [/usr/bin/node]
+ 3: v8::Utils::ReportOOMFailure(char const*, bool) [/usr/bin/node]
+ 4: v8::internal::V8::FatalProcessOutOfMemory(char const*, bool) [/usr/bin/node]
+ 5: v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/usr/bin/node]
+ 6: v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/bin/node]
+ 7: v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationSpace) [/usr/bin/node]
+ 8: v8::internal::Runtime_AllocateInNewSpace(int, v8::internal::Object**, v8::internal::Isolate*) [/usr/bin/node]
+ 9: 0x2dc258f842fd
+(M fjolarok): Ready
+Error Logged: TypeError: node.isWall is not a function
+TypeError: node.isWall is not a function
+    at Object.isTileBlocking (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/physics.js:318:16)
+    at Object.performMove (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:247:16)
+    at Object.performQueue (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:230:23)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:76:9)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objects.js:295:7)
+    at Object.tick (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/instancer.js:241:22)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #5
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+Error Logged: TypeError: node.isWall is not a function
+TypeError: node.isWall is not a function
+    at Object.isTileBlocking (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/physics.js:318:16)
+    at Object.performMove (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:247:16)
+    at Object.performQueue (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:230:23)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:76:9)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objects.js:295:7)
+    at Object.tick (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/instancer.js:241:22)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #6
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+Error Logged: TypeError: node.isWall is not a function
+TypeError: node.isWall is not a function
+    at Object.isTileBlocking (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/physics.js:318:16)
+    at Object.performMove (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:247:16)
+    at Object.performQueue (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:230:23)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:76:9)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objects.js:295:7)
+    at Object.tick (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/instancer.js:241:22)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #7
+Server: ready
+(M estuary): Ready
+
+<--- Last few GCs --->
+
+[19180:0x2d5eb10]  1628955 ms: Scavenge 47.1 (60.5) -> 45.7 (60.5) MB, 3.3 / 0.0 ms  allocation failure 
+[19180:0x2d5eb10]  1630731 ms: Scavenge 47.3 (60.5) -> 46.0 (60.5) MB, 4.1 / 0.0 ms  allocation failure 
+[19180:0x2d5eb10]  1632521 ms: Scavenge 47.7 (60.5) -> 46.3 (60.5) MB, 2.0 / 0.0 ms  allocation failure 
+[19180:0x2d5eb10]  1635332 ms: Scavenge 48.0 (60.5) -> 46.6 (57.5) MB, 58.8 / 0.0 ms  allocation failure 
+
+
+<--- JS stacktrace --->
+
+==== JS stack trace =========================================
+
+Security context: 0x2960301a57c1 <JSObject>
+    1: update [/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objects.js:~285] [pc=0x3cfc79df8c6c](this=0x2a5880555651 <Object map = 0x3a0eba96b51>)
+    2: tick [/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/instancer.js:~90] [pc=0x3cfc79e2ffe6](this=0x100fc131f29 <Object map = 0x3a0eba96f19>)
+    3: listOnTimeout [timers.js:~218...
+
+FATAL ERROR: Committing semi space failed. Allocation failed - process out of memory
+(M sewer): Ready
+ 1: node::Abort() [/usr/bin/node]
+ 2: 0x11e7fec [/usr/bin/node]
+ 3: v8::Utils::ReportOOMFailure(char const*, bool) [/usr/bin/node]
+ 4: v8::internal::V8::FatalProcessOutOfMemory(char const*, bool) [/usr/bin/node]
+ 5: v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/usr/bin/node]
+ 6: v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/bin/node]
+ 7: v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationSpace) [/usr/bin/node]
+ 8: v8::internal::Runtime_AllocateInNewSpace(int, v8::internal::Object**, v8::internal::Isolate*) [/usr/bin/node]
+ 9: 0x3cfc79c842fd
+(M fjolarok): Ready
+Error Logged: TypeError: node.isWall is not a function
+TypeError: node.isWall is not a function
+    at Object.isTileBlocking (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/physics.js:318:16)
+    at Object.performMove (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:247:16)
+    at Object.performQueue (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:230:23)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objBase.js:76:9)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/objects/objects.js:295:7)
+    at Object.tick (/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/server/world/instancer.js:241:22)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #8
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+(node:19455) UnhandledPromiseRejectionWarning: Error: SQLITE_BUSY: database is locked
+(node:19455) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:19455) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/client/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/client/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-13-21-46-58/src/client/favicon.ico'
+(node:19481) UnhandledPromiseRejectionWarning: Error: SQLITE_BUSY: database is locked
+(node:19481) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:19481) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+error: Forever detected script was killed by signal: SIGKILL
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/client/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/client/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/client/favicon.ico'
+Error Logged: TypeError: Cannot read property 'has' of undefined
+TypeError: Cannot read property 'has' of undefined
+    at Object.unequip (/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/server/components/equipment.js:177:13)
+    at Object.equip (/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/server/components/equipment.js:113:9)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/server/objects/objBase.js:213:21)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/server/world/instancer.js:180:7)
+    at process.on.m (/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/server/world/worker.js:94:22)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #1
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error Logged: TypeError: Cannot read property 'has' of undefined
+TypeError: Cannot read property 'has' of undefined
+    at Object.unequip (/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/server/components/equipment.js:177:13)
+    at Object.equip (/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/server/components/equipment.js:113:9)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/server/objects/objBase.js:213:21)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/server/world/instancer.js:180:7)
+    at process.on.m (/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/server/world/worker.js:94:22)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #2
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/client/currentsetting.htm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/client/current_config/passwd'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/client/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/client/sitemap.xml'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/client/.well-known/security.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/client/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-14-23-24-40/src/client/robots.txt'
+error: Forever detected script was killed by signal: SIGKILL
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error Logged: TypeError: Cannot read property 'has' of undefined
+TypeError: Cannot read property 'has' of undefined
+    at Object.unequip (/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/server/components/equipment.js:177:13)
+    at Object.equip (/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/server/components/equipment.js:113:9)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/server/objects/objBase.js:213:21)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/server/world/instancer.js:179:7)
+    at process.on.m (/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/server/world/worker.js:94:22)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #1
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error Logged: TypeError: Cannot read property 'has' of undefined
+TypeError: Cannot read property 'has' of undefined
+    at Object.unequip (/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/server/components/equipment.js:177:13)
+    at Object.equip (/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/server/components/equipment.js:113:9)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/server/objects/objBase.js:213:21)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/server/world/instancer.js:179:7)
+    at process.on.m (/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/server/world/worker.js:94:22)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #2
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/index.php'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/nmaplowercheck1534410437'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/9a528b2a65305f1b9cd154b00e4215c53362588b.htm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/evox/about'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/FEVMQOEASTMOTZTI'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/zimbra/res/I18nMsg,AjxMsg,ZMsg,ZmMsg,AjxKeys,ZmKeys,ZdMsg,Ajx TemplateMsg.js.zgz'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/zimbra/res/I18nMsg,AjxMsg,ZMsg,ZmMsg,AjxKeys,ZmKeys,ZdMsg,Ajx TemplateMsg.js.zgz'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/index.php/wp-json/wp/v2/posts/index.html'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/rest/v1/AccountService/Accounts'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/index.php'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/json/login_session'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/jmx-console/index.html'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/nmaplowercheck1534410434'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/HNAP1'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/CFIDE/administrator/images/loginbackground.jpg'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/Listadeparametros.html'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-15-21-43-50/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+error: Forever detected script was killed by signal: SIGKILL
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+(node:22630) UnhandledPromiseRejectionWarning: ReferenceError: db is not defined
+    at Object.deleteCharacter (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-51-37/src/server/leaderboard/leaderboard.js:124:3)
+    at Object.onDeleteCharacter (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-51-37/src/server/components/auth.js:468:21)
+    at <anonymous>
+(node:22630) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:22630) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+error: Forever detected script was killed by signal: SIGKILL
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+error: Forever detected script was killed by signal: SIGKILL
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error Logged: TypeError: Cannot read property 'has' of undefined
+TypeError: Cannot read property 'has' of undefined
+    at Object.unequip (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/components/equipment.js:177:13)
+    at Object.equip (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/components/equipment.js:113:9)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/objects/objBase.js:213:21)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/world/instancer.js:179:7)
+    at process.on.m (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/world/worker.js:94:22)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #1
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error Logged: TypeError: Cannot read property 'has' of undefined
+TypeError: Cannot read property 'has' of undefined
+    at Object.unequip (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/components/equipment.js:177:13)
+    at Object.equip (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/components/equipment.js:113:9)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/objects/objBase.js:213:21)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/world/instancer.js:179:7)
+    at process.on.m (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/world/worker.js:94:22)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #2
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(node:23399) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/components/player.js:109:9)
+    at Object.onUpdateAccountInfo (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/components/auth.js:93:19)
+    at Object.done (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/security/io.js:238:12)
+    at Statement.replacement (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/node_modules/sqlite3/lib/trace.js:19:31)
+    at Statement.replacement (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/node_modules/sqlite3/lib/trace.js:19:31)
+(node:23399) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:23399) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:23399) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/components/player.js:109:9)
+    at Object.onUpdateAccountInfo (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/components/auth.js:93:19)
+    at Object.done (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/security/io.js:238:12)
+    at Statement.replacement (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/node_modules/sqlite3/lib/trace.js:19:31)
+    at Statement.replacement (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/node_modules/sqlite3/lib/trace.js:19:31)
+(node:23399) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:23399) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/components/player.js:109:9)
+    at Object.onUpdateAccountInfo (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/components/auth.js:93:19)
+    at Object.done (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/security/io.js:238:12)
+    at Statement.replacement (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/node_modules/sqlite3/lib/trace.js:19:31)
+    at Statement.replacement (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/node_modules/sqlite3/lib/trace.js:19:31)
+(node:23399) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:23399) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/components/player.js:109:9)
+    at Object.onUpdateAccountInfo (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/components/auth.js:93:19)
+    at Object.done (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/security/io.js:238:12)
+    at Statement.replacement (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/node_modules/sqlite3/lib/trace.js:19:31)
+    at Statement.replacement (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/node_modules/sqlite3/lib/trace.js:19:31)
+(node:23399) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:23399) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/components/player.js:109:9)
+    at Object.onUpdateAccountInfo (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/components/auth.js:93:19)
+    at Object.done (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/security/io.js:238:12)
+    at Statement.replacement (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/node_modules/sqlite3/lib/trace.js:19:31)
+    at Statement.replacement (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/node_modules/sqlite3/lib/trace.js:19:31)
+(node:23399) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:23399) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/components/player.js:109:9)
+    at Object.onUpdateAccountInfo (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/components/auth.js:93:19)
+    at Object.done (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/security/io.js:238:12)
+    at Statement.replacement (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/node_modules/sqlite3/lib/trace.js:19:31)
+    at Statement.replacement (/opt/stagecoach/apps/isleward/deployments/2018-08-16-19-25-57/src/server/node_modules/sqlite3/lib/trace.js:19:31)
+(node:23399) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+error: Forever detected script was killed by signal: SIGKILL
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-17-03-09-56/src/client/nmaplowercheck1534493587'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-17-03-09-56/src/client/evox/about'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-17-03-09-56/src/client/HNAP1'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-17-03-09-56/src/client/robots.txt'
+Error Logged: TypeError: Cannot read property 'id' of undefined
+TypeError: Cannot read property 'id' of undefined
+    at Object.unequip (/opt/stagecoach/apps/isleward/deployments/2018-08-17-03-09-56/src/server/components/equipment.js:177:13)
+    at Object.equip (/opt/stagecoach/apps/isleward/deployments/2018-08-17-03-09-56/src/server/components/equipment.js:113:9)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-17-03-09-56/src/server/objects/objBase.js:213:21)
+    at Object.performAction (/opt/stagecoach/apps/isleward/deployments/2018-08-17-03-09-56/src/server/world/instancer.js:179:7)
+    at process.on.m (/opt/stagecoach/apps/isleward/deployments/2018-08-17-03-09-56/src/server/world/worker.js:94:22)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #1
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-17-03-09-56/src/client/loading.gif'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-17-03-09-56/src/client/robots.txt'
+error: Forever detected script was killed by signal: SIGKILL
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-17-18-58-21/src/client/loading.gif'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-17-18-58-21/src/client/robots.txt'
+error: Forever detected script was killed by signal: SIGKILL
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/nmaplowercheck1534713756'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/images/loginbackground.jpg'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/evox/about'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/4c9fc3795a255990d0746258de30aea8c769c8c1.htm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/nmaplowercheck1534713755'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/NSCXDAUHKCICNFQF'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/zimbra/res/I18nMsg,AjxMsg,ZMsg,ZmMsg,AjxKeys,ZmKeys,ZdMsg,Ajx TemplateMsg.js.zgz'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/HNAP1'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/zimbra/res/I18nMsg,AjxMsg,ZMsg,ZmMsg,AjxKeys,ZmKeys,ZdMsg,Ajx TemplateMsg.js.zgz'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/index.php'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/rest/v1/AccountService/Accounts'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/json/login_session'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+URIError: Failed to decode param '/client//%c0%2e%c0%2e\%c0%2e%c0%2e\%c0%2e%c0%2e\boot.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:148:15)
+    at matchLayer (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:574:18)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:220:15)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/less-middleware/lib/middleware.js:317:14
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:317:13)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:335:12)
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/jmx-console/index.html'
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/Listadeparametros.html'
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/cmdownloads/index.html'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/.git/HEAD'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/wls-wsat/CoordinatorPortType'
+Error Logged: TypeError: Cannot read property 'gainStats' of undefined
+TypeError: Cannot read property 'gainStats' of undefined
+    at Object.addLevelAttributes (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/stats.js:462:51)
+    at Object.getXp (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/stats.js:290:9)
+    at Object.kill (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/stats.js:373:17)
+    at Object.takeDamage (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/stats.js:536:23)
+    at Object.explode (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/config/spells/spellProjectile.js:105:16)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/spellbook.js:472:8)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/objects/objBase.js:70:11)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/objects/objects.js:295:7)
+    at Object.tick (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/instancer.js:73:11)
+    at ontimeout (timers.js:482:11)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #1
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error Logged: TypeError: Cannot read property 'gainStats' of undefined
+TypeError: Cannot read property 'gainStats' of undefined
+    at Object.addLevelAttributes (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/stats.js:462:51)
+    at Object.getXp (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/stats.js:290:9)
+    at Object.kill (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/stats.js:373:17)
+    at Object.takeDamage (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/stats.js:536:23)
+    at Object.explode (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/config/spells/spellProjectile.js:105:16)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/spellbook.js:472:8)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/objects/objBase.js:70:11)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/objects/objects.js:295:7)
+    at Object.tick (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/instancer.js:73:11)
+    at ontimeout (timers.js:482:11)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #2
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error Logged: TypeError: Cannot read property 'gainStats' of undefined
+TypeError: Cannot read property 'gainStats' of undefined
+    at Object.addLevelAttributes (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/stats.js:462:51)
+    at Object.getXp (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/stats.js:290:9)
+    at Object.kill (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/stats.js:373:17)
+    at Object.takeDamage (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/stats.js:536:23)
+    at Object.explode (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/config/spells/spellProjectile.js:105:16)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/spellbook.js:472:8)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/objects/objBase.js:70:11)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/objects/objects.js:295:7)
+    at Object.tick (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/instancer.js:73:11)
+    at ontimeout (timers.js:482:11)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #3
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/rest/v1/AccountService/Accounts'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/json/login_session'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/01accd934864fcc42d5004af3369d79574ea266a.htm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/nmaplowercheck1534786849'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/.git/HEAD'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/index.php'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/cmdownloads/index.html'
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+URIError: Failed to decode param '/client//%c0%2e%c0%2e\%c0%2e%c0%2e\%c0%2e%c0%2e\boot.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:148:15)
+    at matchLayer (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:574:18)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:220:15)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/less-middleware/lib/middleware.js:317:14
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:317:13)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:335:12)
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/LITMMMPZJPPUVAJU'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/zimbra/res/I18nMsg,AjxMsg,ZMsg,ZmMsg,AjxKeys,ZmKeys,ZdMsg,Ajx TemplateMsg.js.zgz'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/zimbra/res/I18nMsg,AjxMsg,ZMsg,ZmMsg,AjxKeys,ZmKeys,ZdMsg,Ajx TemplateMsg.js.zgz'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/HNAP1'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/nmaplowercheck1534786851'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/index.php'
+(node:27902) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:27902) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:27902) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:27902) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:27902) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:27902) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:27902) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:27902) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:27902) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:27902) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:27902) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:27902) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:27902) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+(node:27902) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:27902) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+(node:27902) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:27902) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 8)
+(node:27902) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:27902) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 9)
+(node:27902) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:27902) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 10)
+(node:27902) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:27902) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 11)
+(node:27902) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:27902) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 12)
+(node:27902) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:27902) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 13)
+(node:27902) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:27902) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 14)
+Error Logged: TypeError: Cannot read property 'gainStats' of undefined
+TypeError: Cannot read property 'gainStats' of undefined
+    at Object.addLevelAttributes (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/stats.js:462:51)
+    at Object.getXp (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/stats.js:290:9)
+    at Object.kill (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/stats.js:373:17)
+    at Object.takeDamage (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/stats.js:536:23)
+    at Object.explode (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/config/spells/spellProjectile.js:105:16)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/spellbook.js:472:8)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/objects/objBase.js:70:11)
+    at Object.update (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/objects/objects.js:295:7)
+    at Object.tick (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/instancer.js:73:11)
+    at ontimeout (timers.js:482:11)
+error: Forever detected script exited with code: 0
+error: Script restart attempt #4
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(node:28368) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:28368) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:28368) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:28368) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:28368) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:28368) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:28368) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/robots.txt'
+(node:28368) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:28368) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/nmaplowercheck1534832777'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/HNAP1'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/Listadeparametros.html'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/images/loginbackground.jpg'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/YQVIXNTTZKEFELAT'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/zimbra/res/I18nMsg,AjxMsg,ZMsg,ZmMsg,AjxKeys,ZmKeys,ZdMsg,Ajx TemplateMsg.js.zgz'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/evox/about'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/580e67410b09ed5e0ba70cfbfda8428341c23e49.htm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/zimbra/res/I18nMsg,AjxMsg,ZMsg,ZmMsg,AjxKeys,ZmKeys,ZdMsg,Ajx TemplateMsg.js.zgz'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/cmdownloads/index.html'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/index.php'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/rest/v1/AccountService/Accounts'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/json/login_session'
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+URIError: Failed to decode param '/client//%c0%2e%c0%2e\%c0%2e%c0%2e\%c0%2e%c0%2e\boot.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:148:15)
+    at matchLayer (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:574:18)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:220:15)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/less-middleware/lib/middleware.js:317:14
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:317:13)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:335:12)
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/plugins/mainScript.split('/');'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/.git/HEAD'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/jmx-console/index.html'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/index.php'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/index.php/wp-json/wp/v2/posts/index.html'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/favicon.ico'
+(node:28368) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:28368) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:28368) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:28368) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+(node:28368) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:28368) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+(node:28368) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:28368) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 8)
+(node:28368) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:28368) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 9)
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/nmaplowercheck1534865110'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/nmaplowercheck1534865108'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/0196c559993b44bdb22f7ad4f2574011a87292c3.htm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/evox/about'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/ESKHRZVEOZDIJARL'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/HNAP1'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/index.php'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/cmdownloads/index.html'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/rest/v1/AccountService/Accounts'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/enter.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/json/login_session'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/jmx-console/index.html'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/administrator/images/loginbackground.jpg'
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+URIError: Failed to decode param '/client//%c0%2e%c0%2e\%c0%2e%c0%2e\%c0%2e%c0%2e\boot.ini'
+    at decodeURIComponent (<anonymous>)
+    at decode_param (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:172:12)
+    at Layer.match (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:148:15)
+    at matchLayer (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:574:18)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:220:15)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/less-middleware/lib/middleware.js:317:14
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:317:13)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:335:12)
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/zimbra/res/I18nMsg,AjxMsg,ZMsg,ZmMsg,AjxKeys,ZmKeys,ZdMsg,Ajx TemplateMsg.js.zgz'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/zimbra/res/I18nMsg,AjxMsg,ZMsg,ZmMsg,AjxKeys,ZmKeys,ZdMsg,Ajx TemplateMsg.js.zgz'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/CFIDE/adminapi/customtags/l10n.cfm'
+ForbiddenError: Forbidden
+    at SendStream.error (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:275:31)
+    at SendStream.pipe (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/send/index.js:540:12)
+    at sendfile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:1062:8)
+    at ServerResponse.sendFile (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/response.js:418:3)
+    at Object.default (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/server.js:84:8)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/node_modules/express/lib/router/index.js:281:22
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/Listadeparametros.html'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/.git/HEAD'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/robots.txt'
+(node:28368) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:28368) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 10)
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/client/robots.txt'
+(node:28368) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:28368) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 11)
+(node:28368) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:28368) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 12)
+(node:28368) UnhandledPromiseRejectionWarning: Error [ERR_IPC_CHANNEL_CLOSED]: channel closed
+    at ChildProcess.target.send (internal/child_process.js:588:16)
+    at Object.send (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:107:18)
+    at Object.addObject (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/world/atlas.js:30:8)
+    at Object.spawn (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/player.js:109:9)
+    at Object.onSendRewards (/opt/stagecoach/apps/isleward/deployments/2018-08-18-18-24-29/src/server/components/auth.js:91:19)
+    at <anonymous>
+(node:28368) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 13)
+error: Forever detected script was killed by signal: SIGKILL
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-22-20-30-39/src/client/a2billing/customer/templates/default/footer.tpl'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-22-20-30-39/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-22-20-30-39/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-22-20-30-39/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-22-20-30-39/src/client/admin/config.php'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-22-20-30-39/src/client/robots.txt'
+error: Forever detected script was killed by signal: SIGKILL
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-23-18-22-35/src/client/robots.txt'
+error: Forever detected script was killed by signal: SIGKILL
+Server: ready
+(M estuary): Ready
+(M sewer): Ready
+(M cave): Ready
+(M fjolarok): Ready
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-24-20-34-55/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-24-20-34-55/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-24-20-34-55/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-24-20-34-55/src/client/robots.txt'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-24-20-34-55/src/client/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-24-20-34-55/src/client/favicon.ico'
+Error: ENOENT: no such file or directory, stat '/opt/stagecoach/apps/isleward/deployments/2018-08-24-20-34-55/src/client/favicon.ico'
