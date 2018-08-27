@@ -8,6 +8,8 @@ let startup = {
 			await client.init(pars);
 
 		await this[cmd](pars);
+
+		process.exit();
 	},
 
 	uptime: async function (serverName) {
