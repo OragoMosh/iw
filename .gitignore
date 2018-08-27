@@ -6,5 +6,5 @@ storage.db
 src/server/mods/iwd-*
 !helpers/item-tooltip/styles.css
 !helpers/passives/**/*.css
-helpers/cli/downloads/*
+helpers/cli/downloads/*.*
 creds.js
