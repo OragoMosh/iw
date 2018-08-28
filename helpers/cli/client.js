@@ -1,6 +1,6 @@
 const fs = require('fs');
 const util = require('util');
-const clientScp = require('scp2').scp;
+const clientScp = require('scp2');
 const clientSsh = require('node-ssh');
 const clone = require('../../src/server/misc/clone.js');
 

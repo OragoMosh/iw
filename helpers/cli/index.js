@@ -4,12 +4,29 @@ let client = require('./client');
 
 let startup = {
 	init: async function (cmd, pars) {
-		if (['uptime'].indexOf(cmd) > -1) 
+		if (['uptime', 'mem'].indexOf(cmd) > -1) 
 			await client.init(pars);
 
 		await this[cmd](pars);
 
 		process.exit();
+	},
+
+	mem: async function (serverName) {
+		let output = await client.execCommands([
+			'free -m'
+		]);
+
+		output = output
+			.split('\n')
+			[1]
+			.split(' ')
+			.filter(f => f.length);
+
+		const total = ~~output[1] + ~~output[2];
+		const percentage = ~~((~~output[1] / total) * 100);
+
+		console.log(`${output[1]}mb / ${total}mb (${percentage}% Used)`);
 	},
 
 	uptime: async function (serverName) {
@@ -32,7 +49,13 @@ let startup = {
 		].map((m, i) => output[i] + m).join(' '));
 	},
 
-	getLog: async function (serverName) {
+	db: async function (serverName) {
+		const targetFilename = '../../data/storage.db';
+
+		await client.downloadFile(serverName, '/opt/stagecoach/apps/isleward/current/data/storage.db', targetFilename);
+	},
+
+	log: async function (serverName) {
 		const targetFilename = `./downloads/${serverName}Log.log`;
 
 		await client.downloadFile(serverName, '.forever/isleward.log', targetFilename);
