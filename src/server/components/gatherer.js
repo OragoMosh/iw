@@ -32,18 +32,7 @@ module.exports = {
 		if (firstNode.resourceNode.nodeType === 'fish') {
 			let rod = this.obj.equipment.eq.tool;
 			if (!rod) {
-				process.send({
-					method: 'events',
-					data: {
-						onGetAnnouncement: [{
-							obj: {
-								msg: 'You need a fishing rod to fish'
-							},
-							to: [this.obj.serverId]
-						}]
-					}
-				});
-
+				this.sendAnnouncement('You need a fishing rod to fish');
 				this.gathering = null;
 
 				return;
@@ -109,18 +98,7 @@ module.exports = {
 		if (isFish) {
 			let catchChance = 40 + this.obj.stats.values.catchChance;
 			if (~~(Math.random() * 100) >= catchChance) {
-				process.send({
-					method: 'events',
-					data: {
-						onGetAnnouncement: [{
-							obj: {
-								msg: 'The fish got away'
-							},
-							to: [this.obj.serverId]
-						}]
-					}
-				});
-
+				this.sendAnnouncement('The fish got away');
 				this.gathering = null;
 
 				return;
@@ -170,7 +148,7 @@ module.exports = {
 
 		let blueprint = gatherResult.blueprint;
 
-		gatherResult.items.forEach(function (item, i) {
+		gatherResult.items.forEach((item, i) => {
 			delete item.pos;
 
 			if (i === 0) {
@@ -184,7 +162,7 @@ module.exports = {
 
 			if (item.material)
 				this.obj.fireEvent('afterGatherResource', gatherResult);
-		}, this);
+		});
 
 		if (!gatherResult.noChangeAmount)
 			resourceNode.gather();
@@ -192,19 +170,8 @@ module.exports = {
 		this.obj.stats.getXp(gatherResult.xp, this.obj, gatherResult.obj);
 
 		if (gathering.destroyed) {
-			if (isFish) {
-				process.send({
-					method: 'events',
-					data: {
-						onGetAnnouncement: [{
-							obj: {
-								msg: 'The school has been depleted'
-							},
-							to: [this.obj.serverId]
-						}]
-					}
-				});
-			}
+			if (isFish)
+				this.sendAnnouncement('The school has been depleted');
 
 			this.nodes.spliceWhere(n => (n === gathering));
 		}
@@ -230,6 +197,17 @@ module.exports = {
 				msg = 'You need a fishing rod to fish';
 		}
 
+		this.sendAnnouncement(msg);
+
+		this.nodes.spliceWhere(n => (n === node));
+		this.nodes.push(node);
+	},
+
+	exit: function (node) {
+		this.nodes.spliceWhere(n => (n === node));
+	},
+
+	sendAnnouncement: function (msg) {
 		process.send({
 			method: 'events',
 			data: {
@@ -241,13 +219,6 @@ module.exports = {
 				}]
 			}
 		});
-
-		this.nodes.spliceWhere(n => (n === node));
-		this.nodes.push(node);
-	},
-
-	exit: function (node) {
-		this.nodes.spliceWhere(n => (n === node));
 	},
 
 	events: {
@@ -259,9 +230,9 @@ module.exports = {
 			if (!this.gathering)
 				return;
 
-			['x', 'y', 'width', 'height'].forEach(function (p) {
+			['x', 'y', 'width', 'height'].forEach(p => {
 				this.obj.syncer.delete(false, 'gatherer', p);
-			}, this);
+			});
 
 			this.obj.syncer.set(true, 'gatherer', 'progress', 100);
 			this.obj.syncer.set(false, 'gatherer', 'progress', 100);
@@ -270,6 +241,14 @@ module.exports = {
 				this.obj.syncer.set(true, 'gatherer', 'action', 'Fishing');
 
 			this.gathering = null;
+		},
+
+		beforeCastSpell: function () {
+			this.events.beforeMove.call(this);
+		},
+
+		beforeTakeDamage: function () {
+			this.events.beforeMove.call(this);
 		},
 
 		afterEquipItem: function (item) {
@@ -283,17 +262,7 @@ module.exports = {
 
 				if (node.resourceNode.nodeType === 'fish') {
 					if (!this.obj.equipment.eq.has('tool')) {
-						process.send({
-							method: 'events',
-							data: {
-								onGetAnnouncement: [{
-									obj: {
-										msg: 'You need a fishing rod to fish'
-									},
-									to: [this.obj.serverId]
-								}]
-							}
-						});
+						this.sendAnnouncement('You need a fishing rod to fish');
 
 						if (this.gathering === node) {
 							if (this.gathering.resourceNode.nodeType === 'fish')
