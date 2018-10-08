@@ -109,8 +109,8 @@ module.exports = {
 			let item = extend({}, e);
 
 			if (item.type === 'skin') {
-				let skinBlueprint = skins.getBlueprint(item.id);
-				item.skinId = item.id;
+				let skinBlueprint = skins.getBlueprint(item.skinId);
+				item.skinId = item.skinId;
 				item.name = skinBlueprint.name;
 				item.sprite = skinBlueprint.sprite;
 			} else if (item.generate) {

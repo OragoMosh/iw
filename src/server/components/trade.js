@@ -40,11 +40,11 @@ module.exports = {
 			});
 
 			if (item.type === 'skin') {
-				let skinBlueprint = skins.getBlueprint(item.id);
+				let skinBlueprint = skins.getBlueprint(item.skinId);
 				item.name = skinBlueprint.name;
 				item.sprite = skinBlueprint.sprite;
 				item.spritesheet = skinBlueprint.spritesheet;
-				item.skinId = skinBlueprint.id;
+				item.skinId = item.skinId;
 			}
 
 			item.id = id;
