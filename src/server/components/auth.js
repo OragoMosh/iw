@@ -391,7 +391,9 @@ module.exports = {
 			skinId: data.skinId,
 			class: data.class,
 			cell: skins.getCell(data.skinId),
-			sheetName: skins.getSpritesheet(data.skinId)
+			sheetName: skins.getSpritesheet(data.skinId),
+			x: null,
+			y: null
 		});
 
 		let simple = this.obj.getSimple(true);

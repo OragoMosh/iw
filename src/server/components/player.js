@@ -24,11 +24,6 @@ module.exports = {
 		if (character.dead)
 			obj.dead = true;
 
-		//Clear values
-		['x', 'y'].forEach(p => {
-			delete obj[p];
-		});
-
 		extend(obj, {
 			layerName: 'mobs',
 			cell: character.cell,
