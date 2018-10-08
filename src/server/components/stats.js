@@ -283,6 +283,7 @@ module.exports = {
 				values.xp = 0;
 
 			values.hpMax += 32.7;
+			this.obj.syncer.setObject(true, 'stats', 'values', 'hpMax', values.hpMax);
 
 			this.addLevelAttributes(true);
 

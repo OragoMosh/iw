@@ -100,7 +100,7 @@ module.exports = {
 		if (prophecies)
 			obj.addComponent('prophecies', prophecies);
 
-		['equipment', 'passives', 'inventory', ' quests', 'events'].forEach(c => {
+		['equipment', 'passives', 'inventory', 'quests', 'events'].forEach(c => {
 			obj.addComponent(c, character.components.find(f => f.type === c));
 		});
 
