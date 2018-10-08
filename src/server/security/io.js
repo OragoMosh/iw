@@ -152,7 +152,7 @@ module.exports = {
 			else if (config.type === 'delete')
 				await this.processDelete(options);
 		} catch (e) {
-			console.log(e);
+			_.log(e);
 			this.buffer.splice(0, 0, next);
 			setTimeout(this.process.bind(this), 10);
 			return;

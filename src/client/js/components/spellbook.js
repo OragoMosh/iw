@@ -86,7 +86,7 @@ define([
 		},
 
 		onMouseDown: function (e, target) {
-			if (!target && this.target && (!this.hoverTarget || this.hoverTarget.id != this.target.id)) {
+			if (!target && this.target && (!this.hoverTarget || this.hoverTarget.id !== this.target.id)) {
 				client.request({
 					cpn: 'player',
 					method: 'queueAction',

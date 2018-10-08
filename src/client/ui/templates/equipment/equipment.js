@@ -120,7 +120,7 @@ define([
 			});
 
 			items
-				.filter(item => item.has('quickSlot') || (item.eq && (item.slot || item.has('runeSlot'))));
+				.filter(item => item.has('quickSlot') || (item.eq && (item.slot || item.has('runeSlot'))))
 				.forEach(item => {
 					let imgX = -item.sprite[0] * 64;
 					let imgY = -item.sprite[1] * 64;
