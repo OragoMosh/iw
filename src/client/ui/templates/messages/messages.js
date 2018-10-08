@@ -27,12 +27,15 @@ define([
 
 		hoverFilter: false,
 
+		blockedPlayers: [],
+
 		postRender: function () {
 			this.onEvent('onGetMessages', this.onGetMessages.bind(this));
 			this.onEvent('onDoWhisper', this.onDoWhisper.bind(this));
 			this.onEvent('onJoinChannel', this.onJoinChannel.bind(this));
 			this.onEvent('onLeaveChannel', this.onLeaveChannel.bind(this));
 			this.onEvent('onGetCustomChatChannels', this.onGetCustomChatChannels.bind(this));
+			this.onEvent('onGetBlockedPlayers', this.onGetBlockedPlayers.bind(this));
 
 			this.find('input')
 				.on('keydown', this.sendChat.bind(this))
@@ -75,6 +78,10 @@ define([
 
 			val = val.substr(0, this.maxChatLength);
 			textbox.val(val);
+		},
+
+		onGetBlockedPlayers: function (list) {
+			this.blockedPlayers = list;
 		},
 
 		onGetCustomChatChannels: function (channels) {
@@ -149,12 +156,15 @@ define([
 
 			let container = this.find('.list');
 
-			messages.forEach(function (m) {
+			messages.forEach(m => {
 				let message = m.message;
-				if (m.item) {
-					let source = message.split(':')[0] + ': ';
-					message = source + '<span class="q' + (m.item.quality || 0) + '">' + message.replace(source, '') + '</span>';
-				}
+				let source = message.split(':')[0];
+				let sourceName = source.split(')').pop();
+				if (this.blockedPlayers.includes(sourceName))
+					return;
+
+				if (m.item)
+					message = source + ': <span class="q' + (m.item.quality || 0) + '">' + message.replace(source + ': ', '') + '</span>';
 
 				let el = $('<div class="list-message ' + m.class + '">' + message + '</div>')
 					.appendTo(container);
@@ -182,7 +192,7 @@ define([
 					ttl: this.maxTtl,
 					el: el
 				});
-			}, this);
+			});
 
 			container.scrollTop(9999999);
 		},
