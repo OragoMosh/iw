@@ -158,13 +158,13 @@ define([
 
 			messages.forEach(m => {
 				let message = m.message;
-				let source = message.split(':')[0];
-				let sourceName = source.split(')').pop();
-				if (this.blockedPlayers.includes(sourceName))
+				let source = message.split(':') + ': ';
+
+				if (this.blockedPlayers.includes(m.source))
 					return;
 
 				if (m.item)
-					message = source + ': <span class="q' + (m.item.quality || 0) + '">' + message.replace(source + ': ', '') + '</span>';
+					message = source + '<span class="q' + (m.item.quality || 0) + '">' + message.replace(source, '') + '</span>';
 
 				let el = $('<div class="list-message ' + m.class + '">' + message + '</div>')
 					.appendTo(container);
