@@ -18,7 +18,7 @@ module.exports = {
 	},
 
 	getList: function (type) {
-		return recipes[type]
+		return (recipes[type] || [])
 			.map(r => r.item.name);
 	},
 
