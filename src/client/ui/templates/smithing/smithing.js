@@ -29,15 +29,17 @@ define([
 
 		postRender: function () {
 			this.onEvent('onShowSmithing', this.toggle.bind(this));
-			this.onEvent('onKeyDown', this.onKeyDown.bind(this));
+			this.onEvent('onKeyDown', this.onKey.bind(this, true));
+			this.onEvent('onKeyUp', this.onKey.bind(this, false));
 
 			this.find('.item-picker').on('click', this.openInventory.bind(this));
 			this.find('.actionButton').on('click', this.smith.bind(this));
 
-			this.onEvent('onHideInventory', this.hackMethod.bind(this));
-			this.onEvent('beforeInventoryClickItem', this.hackMethod.bind(this));
-			this.onEvent('onGetItems', this.onGetItems.bind(this));
+			//If we don't listen to these events, they'll be queued
+			this.onEvent('onHideInventory', () => {});
+			this.onEvent('beforeInventoryClickItem', () => {});
 
+			this.onEvent('onGetItems', this.onGetItems.bind(this));
 			this.onEvent('onSetSmithItem', this.onHideInventory.bind(this));
 
 			this.find('.col-btn').on('click', this.clickAction.bind(this));
@@ -53,7 +55,7 @@ define([
 
 			el.addClass('selected');
 
-			if ((this.item) && (changed))
+			if (this.item && changed)
 				this.getMaterials(this.item);
 		},
 
@@ -91,8 +93,9 @@ define([
 			else if (this.action === 'reslot')
 				msg.msg = 'Item Reslot Succeeded';
 
-			result.addStatMsgs.forEach(function (a) {
-				msg.msg += '<br /> ' + ((a.value > 0) ? '+' : '') + a.value + ' ' + statTranslations.translate(a.stat);
+			result.addStatMsgs.forEach(a => {
+				let statName = statTranslations.translate(a.stat);
+				msg.msg += `<br />${(a.value > 0) ? '+' : ''}${a.value} ${statName}`;
 			});
 
 			events.emit('onGetAnnouncement', msg);
@@ -105,13 +108,8 @@ define([
 			let augment = this.find('[action="augment"]').addClass('disabled');
 			if ((result.item.power || 0) < 3)
 				augment.removeClass('disabled');
-			else
+			else if (this.action === 'augment')
 				this.find('[action="reroll"]').click();
-		},
-
-		//Something needs to listen to events or they'll be queued
-		hackMethod: function () {
-
 		},
 
 		openInventory: function () {
@@ -126,11 +124,12 @@ define([
 			if (msg)
 				msg.success = false;
 
-			if ((!msg) || (!msg.item)) {
+			if (!msg || !msg.item) {
 				this.offEvent(this.eventCloseInv);
 				this.offEvent(this.eventClickInv);
+
 				return;
-			} else if ((!msg.item.slot) || (msg.item.noAugment)) {
+			} else if (!msg.item.slot || msg.item.noAugment) {
 				let resultMsg = {
 					msg: 'Incorrect Item Type',
 					type: 'failure',
@@ -328,16 +327,11 @@ define([
 				this.hide();
 		},
 
-		onKeyDown: function (key) {
-			if (key === 'm')
+		onKey: function (isDown, key) {
+			if (isDown && key === 'm')
 				this.toggle();
 			else if (key === 'shift' && this.hoverItem)
 				this.onHover();
-		},
-
-		onKeyUp: function (key) {
-			if (key === 'shift' && this.hoverItem)
-				this.onHover();	
 		}
 	};
 });
