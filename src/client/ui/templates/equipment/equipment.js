@@ -164,6 +164,9 @@ define([
 		},
 
 		buildSlot: function (el) {
+			if (this.isInspecting)
+				return;
+
 			if (el.target)
 				el = $(el.target).parent();
 
