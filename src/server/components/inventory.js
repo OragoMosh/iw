@@ -522,14 +522,21 @@ module.exports = {
 		});
 	},
 
-	onCheckCharExists: function (msg, item, res) {
+	onCheckCharExists: async function (msg, item, res) {
 		if (!res) {
 			this.resolveCallback(msg, 'Recipient does not exist');
 			return;
 		}
 
-		this.obj.instance.mail.sendMail(msg.recipient, [extend({}, item)]);
+		let blocked = false;
+		if (res.components) {
+			let social = res.components.find(f => f.type === 'social');
+			if (!social.blockedPlayers && social.blockedPlayers.includes(this.obj.name))
+				blocked = true;
+		}
 
+		if (!blocked)
+			this.obj.instance.mail.sendMail(msg.recipient, [extend({}, item)]);
 		this.destroyItem(item.id);
 
 		this.resolveCallback(msg);

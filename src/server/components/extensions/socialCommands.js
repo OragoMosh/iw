@@ -10,6 +10,8 @@ let commandRoles = {
 	leave: 0,
 	unEq: 0,
 	roll: 0,
+	block: 0,
+	unblock: 0,
 
 	//Mods
 	mute: 5,
@@ -36,7 +38,9 @@ let localCommands = [
 	'mute',
 	'unmute',
 	'setPassword',
-	'roll'
+	'roll',
+	'block',
+	'unblock'
 ];
 
 module.exports = {
@@ -189,6 +193,54 @@ module.exports = {
 					type: 'info'
 				}]
 			}]
+		});
+	},
+
+	block: function (target) {
+		if (!this.blockedPlayers.includes(target)) {
+			this.sendMessage('That player has already been blocked', 'color-redA');
+			return;
+		}
+
+		let o = connections.players.find(f => (f.name === target));
+		if (!o)
+			return;
+
+		let role = roles.getRoleLevel(o);
+		if (role >= this.roleLevel) {
+			this.sendMessage('You cannot block players with a higher role level than you', 'color-redA');
+			return;
+		}
+
+		this.blockedPlayers.push(target);
+		this.sendMessage(`Successfully blocked ${target}`, 'color-yellowB');
+
+		this.updateMainThread({
+			blockedPlayers: this.blockedPlayers
+		});
+
+		obj.socket.emit('event', {
+			event: 'onGetBlockedPlayers',
+			data: this.blockedPlayers
+		});
+	},
+
+	unblock: function (target) {
+		if (!this.blockedPlayers.includes(target)) {
+			this.sendMessage('That player is not blocked', 'color-redA');
+			return;
+		}
+
+		this.blockedPlayers.spliceWhere(f => f === target);
+		this.sendMessage(`Successfully unblocked ${target}`, 'color-yellowB');
+
+		this.updateMainThread({
+			blockedPlayers: this.blockedPlayers
+		});
+
+		obj.socket.emit('event', {
+			event: 'onGetBlockedPlayers',
+			data: this.blockedPlayers
 		});
 	},
 
