@@ -197,29 +197,17 @@ module.exports = {
 	},
 
 	block: function (target) {
-		if (!this.blockedPlayers.includes(target)) {
+		if (this.blockedPlayers.includes(target)) {
 			this.sendMessage('That player has already been blocked', 'color-redA');
-			return;
-		}
-
-		let o = connections.players.find(f => (f.name === target));
-		if (!o)
-			return;
-
-		let role = roles.getRoleLevel(o);
-		if (role >= this.roleLevel) {
-			this.sendMessage('You cannot block players with a higher role level than you', 'color-redA');
 			return;
 		}
 
 		this.blockedPlayers.push(target);
 		this.sendMessage(`Successfully blocked ${target}`, 'color-yellowB');
 
-		this.updateMainThread({
-			blockedPlayers: this.blockedPlayers
-		});
+		this.updateMainThread('blockedPlayers', this.blockedPlayers);
 
-		obj.socket.emit('event', {
+		this.obj.socket.emit('event', {
 			event: 'onGetBlockedPlayers',
 			data: this.blockedPlayers
 		});
@@ -234,11 +222,9 @@ module.exports = {
 		this.blockedPlayers.spliceWhere(f => f === target);
 		this.sendMessage(`Successfully unblocked ${target}`, 'color-yellowB');
 
-		this.updateMainThread({
-			blockedPlayers: this.blockedPlayers
-		});
+		this.updateMainThread('blockedPlayers', this.blockedPlayers);
 
-		obj.socket.emit('event', {
+		this.obj.socket.emit('event', {
 			event: 'onGetBlockedPlayers',
 			data: this.blockedPlayers
 		});

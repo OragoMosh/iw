@@ -18,6 +18,7 @@ define([
 		centered: true,
 
 		onlineList: [],
+		blockedList: [],
 
 		modal: true,
 
@@ -27,8 +28,14 @@ define([
 			this.onEvent('onGetConnectedPlayer', this.onGetConnectedPlayer.bind(this));
 			this.onEvent('onGetDisconnectedPlayer', this.onGetDisconnectedPlayer.bind(this));
 
+			this.onEvent('onGetBlockedPlayers', this.onGetBlockedPlayers.bind(this));
+
 			this.onEvent('onKeyDown', this.onKeyDown.bind(this));
 			this.onEvent('onShowOnline', this.toggle.bind(this));
+		},
+
+		onGetBlockedPlayers: function (list) {
+			this.blockedPlayers = list;
 		},
 
 		onKeyDown: function (key) {
@@ -106,17 +113,34 @@ define([
 
 		showContext: function (char, e) {
 			if (char.name !== window.player.name) {
+				let isBlocked = this.blockedPlayers.includes(char.name);
 				events.emit('onContextMenu', [{
 					text: 'invite to party',
 					callback: this.invite.bind(this, char.id)
 				}, {
 					text: 'whisper',
 					callback: events.emit.bind(events, 'onDoWhisper', char.name)
+				}, {
+					text: isBlocked ? 'unblock' : 'block',
+					callback: this.block.bind(this, char.name)
 				}], e);
 			}
 
 			e.preventDefault();
 			return false;
+		},
+
+		block: function (charName) {
+			let isBlocked = this.blockedPlayers.includes(charName);
+			let method = isBlocked ? 'unblock' : 'block';
+
+			client.request({
+				cpn: 'social',
+				method: 'chat',
+				data: {
+					message: `/${method} ${charName}`
+				}
+			});
 		},
 
 		invite: function (charId) {

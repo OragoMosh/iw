@@ -77,7 +77,8 @@ module.exports = {
 					messages: [{
 						class: 'color-grayB',
 						message: '(party: ' + charname + '): ' + message,
-						type: 'chat'
+						type: 'chat',
+						source: this.obj.name
 					}]
 				}]
 			});
@@ -122,7 +123,8 @@ module.exports = {
 							messages: [{
 								class: 'color-grayB',
 								message: '[' + channel + '] ' + this.obj.auth.charname + ': ' + message,
-								type: channel.trim()
+								type: channel.trim(),
+								source: this.obj.name
 							}]
 						}]
 					});
@@ -214,7 +216,8 @@ module.exports = {
 					messages: [{
 						class: 'color-yellowB',
 						message: '(you to ' + playerName + '): ' + messageString,
-						type: 'chat'
+						type: 'chat',
+						source: this.obj.name
 					}]
 				}
 			});
@@ -225,7 +228,8 @@ module.exports = {
 					messages: [{
 						class: 'color-yellowB',
 						message: '(' + this.obj.name + ' to you): ' + messageString,
-						type: 'chat'
+						type: 'chat',
+						source: this.obj.name
 					}]
 				}
 			});
@@ -243,7 +247,8 @@ module.exports = {
 						class: msgStyle,
 						message: prefix + charname + ': ' + msg.data.message,
 						item: msg.data.item,
-						type: 'chat'
+						type: 'chat',
+						source: this.obj.name
 					}]
 				}
 			});
