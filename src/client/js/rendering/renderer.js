@@ -178,13 +178,13 @@ define([
 				for (let j = 0; j < h; j++) {
 					let roll = Math.sin(((j * 0.2) % 5) + Math.cos(ii % 8));
 
-					let tile = 61;
+					let tile = 5;
 					if (roll < -0.2)
-						tile = 63;
+						tile = 3;
 					else if (roll < 0.2)
-						tile = 64;
+						tile = 4;
 					else if (roll < 0.5)
-						tile = 34;
+						tile = 53;
 
 					let alpha = mRandom();
 
@@ -195,10 +195,11 @@ define([
 
 					if (mRandom() < 0.35) {
 						tile = {
-							61: 62,
-							63: 64,
-							64: 63,
-							34: 33
+							2: 7,
+							5: 6,
+							3: 0,
+							4: 1,
+							53: 54
 						}[tile];
 					}
 
