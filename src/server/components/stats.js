@@ -282,7 +282,7 @@ module.exports = {
 			if (values.level === 20)
 				values.xp = 0;
 
-			values.hpMax = values.level * 32.7;
+			values.hpMax += 32.7;
 
 			this.addLevelAttributes(true);
 
