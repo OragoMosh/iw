@@ -24,6 +24,11 @@ module.exports = {
 		if (character.dead)
 			obj.dead = true;
 
+		//Clear values
+		['x', 'y'].forEach(p => {
+			delete obj[p];
+		});
+
 		extend(obj, {
 			layerName: 'mobs',
 			cell: character.cell,
@@ -80,7 +85,7 @@ module.exports = {
 		if (blueprintEffects.effects) {
 			//Calculate ttl of effects
 			let time = +new Date();
-			blueprintEffects.effects = blueprintEffects.effects.filter(function (e) {
+			blueprintEffects.effects = blueprintEffects.effects.filter(e => {
 				let remaining = e.expire - time;
 				if (remaining < 0)
 					return false;
@@ -95,11 +100,9 @@ module.exports = {
 		if (prophecies)
 			obj.addComponent('prophecies', prophecies);
 
-		obj.addComponent('equipment', character.components.find(c => c.type === 'equipment'));
-		obj.addComponent('passives', character.components.find(c => c.type === 'passives'));
-		obj.addComponent('inventory', character.components.find(c => c.type === 'inventory'));
-		obj.addComponent('quests', character.components.find(c => c.type === 'quests'));
-		obj.addComponent('events', character.components.find(c => c.type === 'events'));
+		['equipment', 'passives', 'inventory', ' quests', 'events'].forEach(c => {
+			obj.addComponent(c, character.components.find(f => f.type === c));
+		});
 
 		obj.xp = stats.values.xp;
 		obj.level = stats.values.level;
@@ -140,9 +143,11 @@ module.exports = {
 	hasSeen: function (id) {
 		return (this.seen.indexOf(id) > -1);
 	},
+
 	see: function (id) {
 		this.seen.push(id);
 	},
+
 	unsee: function (id) {
 		this.seen.spliceWhere(s => s === id);
 	},
@@ -224,9 +229,11 @@ module.exports = {
 			data: msg.data
 		});
 	},
+
 	queueAction: function (msg) {
 		atlas.queueAction(this.obj, msg.data);
 	},
+	
 	performAction: function (msg) {
 		if (msg.callback)
 			msg.data.data.callbackId = atlas.registerCallback(msg.callback);

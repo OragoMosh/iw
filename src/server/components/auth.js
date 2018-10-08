@@ -45,7 +45,7 @@ module.exports = {
 
 		let time = scheduler.getTime();
 		let lastLogin = accountInfo.lastLogin;
-		if ((!lastLogin) || (lastLogin.day !== time.day)) {
+		if (!lastLogin || lastLogin.day !== time.day) {
 			let daysSkipped = 1;
 			if (lastLogin) {
 				if (time.day > lastLogin.day)
