@@ -49,15 +49,14 @@ define([
 			this.shown = !this.el.is(':visible');
 			this.isInspecting = false;
 
+			this.find('.itemList').hide();
+
 			if (this.shown) {
-				this.find('.itemList').hide();
 				this.show();
 				this.onGetStats();
 				this.onGetItems();
-			} else {
-				this.find('.itemList').hide();
+			} else
 				this.hide();
-			}
 
 			this.onHoverItem(null, null, null);
 		},
@@ -104,16 +103,16 @@ define([
 				.css('background-position', '')
 				.on('click', this.buildSlot.bind(this));
 
-			this.find('[slot]').toArray().forEach(function (el) {
+			this.find('[slot]').toArray().forEach(el => {
 				el = $(el);
 				let slot = el.attr('slot');
-				let newItems = window.player.inventory.items.some(function (i) {
+				let newItems = window.player.inventory.items.some(i => {
 					if (slot.indexOf('finger') === 0)
 						slot = 'finger';
 					else if (slot === 'oneHanded')
-						return ((['oneHanded', 'twoHanded'].indexOf(slot) > -1) && (i.isNew));
+						return (['oneHanded', 'twoHanded'].includes(slot) && i.isNew);
 
-					return ((i.slot === slot) && (i.isNew));
+					return (i.slot === slot && i.isNew);
 				});
 
 				if (newItems)
@@ -121,10 +120,8 @@ define([
 			});
 
 			items
-				.filter(function (item) {
-					return (item.has('quickSlot') || (item.eq && (item.slot || item.has('runeSlot'))));
-				}, this)
-				.forEach(function (item) {
+				.filter(item => item.has('quickSlot') || (item.eq && (item.slot || item.has('runeSlot'))));
+				.forEach(item => {
 					let imgX = -item.sprite[0] * 64;
 					let imgY = -item.sprite[1] * 64;
 
@@ -151,7 +148,7 @@ define([
 						.on('mousemove', this.onHoverItem.bind(this, elSlot, item, null))
 						.on('mouseleave', this.onHoverItem.bind(this, null, null))
 						.on('click', this.buildSlot.bind(this, elSlot));
-				}, this);
+				});
 		},
 
 		onInspectTarget: function (result) {
@@ -178,38 +175,34 @@ define([
 				.empty()
 				.show();
 
-			this.hoverCompare = el.data('item');
+			let hoverCompare = this.hoverCompare = el.data('item');
 
 			let items = this.items
-				.filter(function (item) {
+				.filter(item => {
 					if (isRune)
-						return ((!item.slot) && (item.spell) && (!item.eq));
+						return (!item.slot && item.spell && !item.eq);
 					else if (isConsumable)
 						return (item.type === 'consumable' && !item.has('quickSlot'));
 					
 					let checkSlot = (slot.indexOf('finger') === 0) ? 'finger' : slot;
 					if (slot === 'oneHanded')
-						return ((!item.eq) && ((item.slot === 'oneHanded') || (item.slot === 'twoHanded')));
+						return (!item.eq && (item.slot === 'oneHanded' || item.slot === 'twoHanded'));
 
-					return ((item.slot === checkSlot) && (!item.eq));
-				}, this);
+					return (item.slot === checkSlot && !item.eq);
+				});
 
-			if (isConsumable) {
-				items = items
-					.filter(function (item, i) {
-						return (items.firstIndex(f => f.name === item.name) === i);
-					});
-			}
+			if (isConsumable)
+				items = items.filter((item, i) => items.firstIndex(f => f.name === item.name) === i);
 
 			items.splice(0, 0, {
 				name: 'None',
-				slot: this.hoverCompare ? this.hoverCompare.slot : null,
-				id: (this.hoverCompare && !isConsumable) ? this.hoverCompare.id : null,
+				slot: hoverCompare ? hoverCompare.slot : null,
+				id: (hoverCompare && !isConsumable) ? hoverCompare.id : null,
 				type: isConsumable ? 'consumable' : null,
 				empty: true
 			});
-			if (this.hoverCompare)
-				items.splice(1, 0, this.hoverCompare);
+			if (hoverCompare)
+				items.splice(1, 0, hoverCompare);
 
 			items
 				.forEach(function (item, i) {
@@ -231,13 +224,13 @@ define([
 						.on('mouseleave', this.onHoverItem.bind(this, null, null))
 						.on('click', this.equipItem.bind(this, item, slot));
 
-					if (item === this.hoverCompare)
+					if (item === hoverCompare)
 						itemEl.find('.icon').addClass('eq');
 					else if (item.isNew)
 						el.find('.icon').addClass('new');
 				}, this);
 
-			if (items.length === 0)
+			if (!items.length)
 				container.hide();
 		},
 
