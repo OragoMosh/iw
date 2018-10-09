@@ -177,13 +177,8 @@ define([
 					if (isEnchanted)
 						statName = statName.substr(1);
 
+					let value = this.getStatValue(statName, tempStats[s]);
 					statName = statTranslations.translate(statName);
-					let value = tempStats[s];
-
-					if (percentageStats.indexOf(s) > -1)
-						value += '%';
-					else if ((s.indexOf('element') === 0) && (s.indexOf('Resist') === -1))
-						value += '%';
 
 					let row = value + ' ' + statName;
 					let rowClass = '';
@@ -215,13 +210,9 @@ define([
 
 			let implicitStats = (item.implicitStats || []).map(function (s) {
 				let stat = s.stat;
-				let statName = statTranslations.translate(stat);
-				let value = s.value;
 
-				if (percentageStats.indexOf(stat) > -1)
-					value += '%';
-				else if ((stat.indexOf('element') === 0) && (stat.indexOf('Resist') === -1))
-					value += '%';
+				let value = this.getStatValue(stat, s.value);
+				let statName = statTranslations.translate(stat);
 
 				let row = value + ' ' + statName;
 				let rowClass = '';
@@ -285,75 +276,77 @@ define([
 				html = html.replace('$DAMAGE$', abilityValues);
 			}
 
-			this.tooltip.html(html);
+			let tooltip = this.tooltip;
+
+			tooltip.html(html);
 
 			if (!item.level)
-				this.tooltip.find('.level').hide();
+				tooltip.find('.level').hide();
 			else
-				this.tooltip.find('.level').show();
+				tooltip.find('.level').show();
 
 			if (!item.implicitStats)
-				this.tooltip.find('.implicitStats').hide();
+				tooltip.find('.implicitStats').hide();
 			else
-				this.tooltip.find('.implicitStats').show();
+				tooltip.find('.implicitStats').show();
 
 			if (!item.requires) {
 				if (!item.level)
-					this.tooltip.find('.requires').hide();
+					tooltip.find('.requires').hide();
 				else
-					this.tooltip.find('.requires .stats').hide();
+					tooltip.find('.requires .stats').hide();
 			} else
-				this.tooltip.find('.requires .stats').show();
+				tooltip.find('.requires .stats').show();
 
 			if (!stats.length)
-				this.tooltip.children('.stats').hide();
+				tooltip.children('.stats').hide();
 
 			if ((!item.type) || (item.type === item.name))
-				this.tooltip.find('.type').hide();
+				tooltip.find('.type').hide();
 			else {
-				this.tooltip.find('.type')
+				tooltip.find('.type')
 					.html(item.type)
 					.show();
 			}
 
 			if (item.power)
-				this.tooltip.find('.power').show();
+				tooltip.find('.power').show();
 
 			let equipErrors = window.player.inventory.equipItemErrors(item);
 			equipErrors.forEach(function (e) {
-				this.tooltip.find('.requires').addClass('high-level');
-				this.tooltip.find('.requires .' + e).addClass('high-level');
+				tooltip.find('.requires').addClass('high-level');
+				tooltip.find('.requires .' + e).addClass('high-level');
 			}, this);
 
 			if ((item.material) || (item.quest)) {
-				this.tooltip.find('.level').hide();
-				this.tooltip.find('.info').hide();
+				tooltip.find('.level').hide();
+				tooltip.find('.info').hide();
 
 				if (item.material)
-					this.tooltip.find('.material').show();
+					tooltip.find('.material').show();
 				else if (item.quest)
-					this.tooltip.find('.quest').show();
+					tooltip.find('.quest').show();
 			} else if (item.eq)
-				this.tooltip.find('.info').hide();
+				tooltip.find('.info').hide();
 
 			if (!item.ability) 
-				this.tooltip.find('.damage').hide();
+				tooltip.find('.damage').hide();
 			else
-				this.tooltip.find('.info').hide();
+				tooltip.find('.info').hide();
 
 			if (item.spell) {
-				this.tooltip.find('.spellName')
+				tooltip.find('.spellName')
 					.html(item.spell.name)
 					.addClass('q' + item.spell.quality)
 					.show();
-				this.tooltip.find('.damage')
+				tooltip.find('.damage')
 					.show();
 				if (item.ability)
-					this.tooltip.find('.spellName').hide();
+					tooltip.find('.spellName').hide();
 			} else
-				this.tooltip.find('.spellName').hide();
+				tooltip.find('.spellName').hide();
 
-			this.tooltip.find('.worth').html(item.worthText ? ('<br />value: ' + item.worthText) : '');
+			tooltip.find('.worth').html(item.worthText ? ('<br />value: ' + item.worthText) : '');
 
 			if (item.effects && item.effects[0].text && item.type !== 'mtx') {
 				let htmlEffects = '';
@@ -400,14 +393,14 @@ define([
 				this.find('.faction').hide();
 
 			if (shiftDown || !compare)
-				this.tooltip.find('.info').hide();
+				tooltip.find('.info').hide();
 
 			if (item.cd) {
-				this.tooltip.find('.info')
+				tooltip.find('.info')
 					.html('cooldown: ' + item.cd)
 					.show();
 			} else if (item.uses) {
-				this.tooltip.find('.info')
+				tooltip.find('.info')
 					.html('uses: ' + item.uses)
 					.show();
 			}
@@ -426,6 +419,17 @@ define([
 			}
 
 			events.emit('onBuiltItemTooltip', this.tooltip);
+		},
+
+		getStatValue: function (statName, statValue) {
+			let res = statValue;
+			if (statName.indexOf('CritChance') > -1)
+				res = res / 20;
+
+			if (percentageStats.includes(statName) || (statName.indexOf('element') === 0 && statName.indexOf('Resist') === -1))
+				res += '%';
+
+			return res;
 		},
 
 		showWorth: function (canAfford) {

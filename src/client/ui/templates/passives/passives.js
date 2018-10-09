@@ -305,8 +305,10 @@ define([
 						.map(function (s) {
 							let statName = statTranslations.translate(s);
 							let statValue = node.stats[s];
+							if (s.indexOf('CritChance') > -1)
+								statValue /= 20;
 							let negative = ((statValue + '')[0] === '-');
-							if (percentageStats.indexOf(s) > -1)
+							if (percentageStats.includes(s))
 								statValue += '%';
 
 							return ((negative ? '' : '+') + statValue + ' ' + statName);
