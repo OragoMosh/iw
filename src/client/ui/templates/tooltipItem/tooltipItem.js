@@ -341,10 +341,17 @@ define([
 					.show();
 				tooltip.find('.damage')
 					.show();
+				if (item.spell.manaCost) {
+					tooltip.find('.spellCost')
+						.html(item.spell.manaCost + ' mana')
+						.show();
+				}
 				if (item.ability)
 					tooltip.find('.spellName').hide();
-			} else
+			} else {
 				tooltip.find('.spellName').hide();
+				tooltip.find('.spellCost').hide();
+			}
 
 			tooltip.find('.worth').html(item.worthText ? ('<br />value: ' + item.worthText) : '');
 
