@@ -156,10 +156,17 @@ module.exports = {
 			obj.inventory.destroyItem(findItem.id, m.quantity);
 		});
 
-		let item = extend({}, recipe.item);
-		item.description += `<br /><br />(Crafted by ${obj.name})`;
+		let outputItems = recipe.item ? [ recipe.item ] : recipe.items;
+		outputItems.forEach(itemBpt => {
+			let item = extend({}, itemBpt);
+			item.description += `<br /><br />(Crafted by ${obj.name})`;
 
-		obj.inventory.getItem(item);
+			const quantity = item.quantity;
+			if (quantity.push)
+				item.quantity = quantity[0] + ~~(Math.random() * (quantity[1] - quantity[0]));
+
+			obj.inventory.getItem(item);
+		});
 
 		this.resolveCallback(msg, this.buildRecipe(obj, msg.name));
 	},
