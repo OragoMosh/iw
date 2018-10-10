@@ -42,9 +42,14 @@ module.exports = {
 		character.stash = this.stash;
 		character.account = this.username;
 
+		let relog = (this.charname === character.name);
 		this.charname = character.name;
 
-		this.checkLoginReward(data, character);
+		if (relog) {
+			data.callback();
+			atlas.relog(this.obj);
+		} else
+			this.checkLoginReward(data, character);
 	},
 
 	checkLoginReward: function (data, character) {
@@ -278,10 +283,9 @@ module.exports = {
 		}
 		
 		this.username = msg.data.username;
-		let existingId = connections.logOut(this.obj);
-		console.log(existingId);
-		if (existingId)
-			this.obj.id = existingId;
+		let relogged = connections.logOut(this.obj);
+		if (relogged)
+			cons.players.spliceWhere(p => p === this.obj);
 
 		await this.getSkins();
 

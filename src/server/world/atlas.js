@@ -90,6 +90,20 @@ module.exports = {
 		});
 	},
 
+	relog: function (obj) {
+		this.send(obj.zone, {
+			method: 'performAction',
+			args: {
+				id: obj.id,
+				instanceId: obj.instanceId,
+				action: {
+					cpn: 'player',
+					method: 'relog'
+				}
+			}
+		});
+	},
+
 	registerCallback: function (callback) {
 		this.callbacks.push({
 			id: ++this.lastCallbackId,

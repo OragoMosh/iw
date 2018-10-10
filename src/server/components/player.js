@@ -217,6 +217,13 @@ module.exports = {
 		}, [obj.serverId]);
 	},
 
+	relog: function () {
+		this.seen = [];
+
+		let instance = this.obj.instance;
+		instance.syncer.queue('onGetMap', instance.map.clientMap, [this.obj.serverId]);
+	},
+
 	move: function (msg) {
 		atlas.queueAction(this.obj, {
 			action: 'move',
