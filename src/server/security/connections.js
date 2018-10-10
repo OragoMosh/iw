@@ -134,8 +134,12 @@ module.exports = {
 			if ((!p) || (p === exclude) || (!p.auth))
 				continue;
 
-			if (p.auth.username === exclude.auth.username)
+			if (p.auth.username === exclude.auth.username) {
 				p.socket.emit('dc', {});
+				console.log(p.name, exclude.name);
+				if (p.name === exclude.name)
+					return p.id;
+			}
 		}
 	},
 

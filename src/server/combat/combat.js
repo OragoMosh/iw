@@ -81,6 +81,8 @@ module.exports = {
 			}
 		}
 
+		amount = 0.001;
+
 		return {
 			amount: amount,
 			blocked: blocked,

@@ -14,6 +14,7 @@ module.exports = {
 			return true;
 
 		let secondaryAllowed = {
+			auth: ['ping'],
 			dialogue: ['talk'],
 			gatherer: ['gather'],
 			quests: ['complete'],

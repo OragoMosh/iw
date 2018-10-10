@@ -2,12 +2,14 @@ define([
 	'js/rendering/renderer',
 	'js/system/events',
 	'js/misc/physics',
-	'js/sound/sound'
+	'js/sound/sound',
+	'js/system/client'
 ], function (
 	renderer,
 	events,
 	physics,
-	sound
+	sound,
+	client
 ) {
 	return {
 		type: 'player',
@@ -16,6 +18,9 @@ define([
 			x: 0,
 			y: 0
 		},
+
+		lastPing: null,
+		pingDelay: 5000,
 
 		init: function () {
 			const obj = this.obj;
@@ -39,6 +44,8 @@ define([
 		},
 
 		update: function () {
+			this.ping();
+
 			const obj = this.obj;
 			const x = obj.x;
 			const y = obj.y;
@@ -54,6 +61,22 @@ define([
 			sound.update(x, y);
 
 			this.positionCamera(x, y);
+		},
+
+		ping: function () {
+			let time = +new Date();
+			if (time - this.lastPing > this.pingDelay) {
+				this.lastPing = time;
+
+				client.request({
+					cpn: 'player',
+					method: 'performAction',
+					data: {
+						cpn: 'auth',
+						method: 'ping'
+					}
+				});
+			}
 		},
 
 		positionCamera: function (x, y, instant) {

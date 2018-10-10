@@ -21,6 +21,13 @@ module.exports = {
 
 	customChannels: [],
 
+	lastPing: null,
+	isAfk: false,
+
+	init: function () {
+		this.lastPing = +new Date();
+	},
+
 	play: function (data) {
 		if (!this.username)
 			return;
@@ -271,7 +278,10 @@ module.exports = {
 		}
 		
 		this.username = msg.data.username;
-		connections.logOut(this.obj);
+		let existingId = connections.logOut(this.obj);
+		console.log(existingId);
+		if (existingId)
+			this.obj.id = existingId;
 
 		await this.getSkins();
 
@@ -486,5 +496,47 @@ module.exports = {
 				dead: true
 			}
 		});
+	},
+
+	ping: function () {
+		let time = +new Date();
+		//this.lastPing = time;
+
+		if (this.afk)
+			this.setAfk(false);
+	},
+
+	setAfk: function (isAfk) {
+		if (this.isAfk === isAfk)
+			return;
+		
+		this.isAfk = isAfk;
+
+		let msg = `${this.obj.name} has gone afk`;
+		if (!isAfk)
+			msg = `${this.obj.name} is no longer afk`;
+
+		this.obj.instance.syncer.queue('onGetMessages', {
+			messages: {
+				class: 'color-blueB',
+				message: msg
+			}
+		}, -1);
+	},
+
+	update: function () {
+		let time = +new Date();
+		let delta = time - this.lastPing;
+
+		if (delta > 120000) {
+			process.send({
+				method: 'object',
+				serverId: this.obj.serverId,
+				obj: {
+					offline: true
+				}
+			});
+		} else if (delta > 10000)
+			this.setAfk(true);
 	}
 };

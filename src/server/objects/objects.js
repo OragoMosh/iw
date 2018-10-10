@@ -252,6 +252,17 @@ module.exports = {
 			return;
 
 		let obj = msg.obj;
+		if (obj.offline) {
+			cons.unzone({
+				socket: player.socket,
+				callback: () => {}
+			});
+
+			player.socket.emit('dc', {});
+
+			return;
+		}
+
 		for (let p in obj) 
 			player[p] = obj[p];
 
