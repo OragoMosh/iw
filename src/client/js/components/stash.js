@@ -8,9 +8,11 @@ define([
 
 		active: false,
 
+		tabs: null,
 		items: null,
 
 		init: function () {
+			events.emit('onGetStashTabs', this.tabs);
 			events.emit('onGetStashItems', this.items);
 		},
 

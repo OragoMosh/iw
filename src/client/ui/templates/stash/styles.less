@@ -1,6 +1,39 @@
 @import "../../../css/colors.less";
 
 .uiStash {
+	background-color: @blackC;
+
+	.tabs {
+		display: flex;
+		background-color: @blackC;
+		flex-direction: row;
+		height: 25px;
+		margin: 8px 8px 0px 8px;
+
+		.tab {
+			background-color: @blackB;
+			color: @white;
+			height: 100%;
+			width: 100px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			cursor: pointer;
+
+			&:not(:first-child) {
+				margin-left: 10px;
+			}
+
+			&:hover {
+				background-color: @blackA;
+			}
+
+			&.active {
+				color: @blueA;
+			}
+		}
+	}
+
 	.grid {
 		overflow-y: auto;
 	}
