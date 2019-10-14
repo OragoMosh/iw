@@ -4,14 +4,14 @@ define([
 	'html!ui/templates/stash/template',
 	'css!ui/templates/stash/styles',
 	'html!ui/templates/inventory/templateItem',
-	'js/input'
+	'ui/helpers'
 ], function (
 	events,
 	client,
 	template,
 	styles,
 	tplItem,
-	input
+	uiHelpers
 ) {
 	return {
 		tpl: template,
@@ -19,12 +19,15 @@ define([
 		centered: true,
 		hoverItem: null,
 
+		activeTab: null,
+		tabs: [],
 		items: [],
 
 		modal: true,
 		hasClose: true,
 
 		postRender: function () {
+			this.onEvent('onGetStashTabs', this.onGetStashTabs.bind(this));
 			this.onEvent('onGetStashItems', this.onGetStashItems.bind(this));
 			this.onEvent('onDestroyStashItems', this.onDestroyStashItems.bind(this));
 			this.onEvent('onKeyDown', this.onKeyDown.bind(this));
@@ -33,7 +36,7 @@ define([
 		},
 
 		build: function () {
-			let container = this.el.find('.grid')
+			let container = this.find('.grid')
 				.empty();
 
 			let items = this.items;
@@ -45,13 +48,13 @@ define([
 				let itemEl = $(tplItem)
 					.appendTo(container);
 
-				if (!item)
+				if (!item || item.tab !== this.activeTab)
 					continue;
 
 				let imgX = -item.sprite[0] * 64;
 				let imgY = -item.sprite[1] * 64;
 
-				let spritesheet = item.spritesheet || '../../../images/items.png';
+				let spritesheet = item.spritesheet;
 				if (!item.spritesheet) {
 					if (item.material)
 						spritesheet = '../../../images/materials.png';
@@ -59,14 +62,14 @@ define([
 						spritesheet = '../../../images/questItems.png';
 					else if (item.type === 'consumable')
 						spritesheet = '../../../images/consumables.png';
+					else
+						spritesheet = '../../../images/items.png';
 				}
 
 				let moveHandler = this.onHover.bind(this, itemEl, item);
 				let downHandler = () => {};
-				if (isMobile) {
-					moveHandler = () => {};
-					downHandler = this.onHover.bind(this, itemEl, item);
-				}
+				if (isMobile) 
+					[moveHandler, downHandler] = [downHandler, moveHandler];
 
 				itemEl
 					.data('item', item)
@@ -79,11 +82,6 @@ define([
 
 				if (item.quantity)
 					itemEl.find('.quantity').html(item.quantity);
-
-				if (item.eq)
-					itemEl.addClass('eq');
-				if (item.isNew)
-					itemEl.addClass('new');
 			}
 		},
 
@@ -94,6 +92,7 @@ define([
 			}], e);
 
 			e.preventDefault();
+
 			return false;
 		},
 
@@ -136,6 +135,28 @@ define([
 			});
 		},
 
+		onGetStashTabs: function (tabs) {
+			this.tabs = [{
+				id: 1,
+				type: 'mtx'
+			}, {
+				id: 2,
+				type: 'basic'
+			}];
+
+			const elTabs = this.find('.tabs').empty();
+
+			this.tabs.forEach(({ id, type }) => {
+				$(`<div class="tab">${type}</div>`)
+					.appendTo(elTabs)
+					.attr('tab-id', id)
+					.on('click', this.onSetTab.bind(this, id));
+			});
+
+			if (!this.activeTab)
+				this.onSetTab(this.tabs[1].id);
+		},
+
 		onGetStashItems: function (items) {
 			this.items = items;
 
@@ -144,20 +165,30 @@ define([
 		},
 
 		onDestroyStashItems: function (itemIds) {
-			itemIds.forEach(function (id) {
+			itemIds.forEach(id => {
 				let item = this.items.find(i => i.id === id);
 				if (item === this.hoverItem) 
 					this.hideTooltip();
 
 				this.items.spliceWhere(i => i.id === id);
-			}, this);
+			});
+
+			if (this.shown)
+				this.build();
+		},
+
+		onSetTab: function (id) {
+			this.activeTab = id;
+
+			this.find('.tab.active').removeClass('active');
+			this.find(`.tab[tab-id="${id}"]`).addClass('active');
 
 			if (this.shown)
 				this.build();
 		},
 
 		toggle: function () {
-			if ((!this.shown) && (!window.player.stash.active))
+			if (!this.shown && !window.player.stash.active)
 				return;
 
 			this.shown = !this.el.is(':visible');

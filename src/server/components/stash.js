@@ -4,6 +4,7 @@ module.exports = {
 	type: 'stash',
 
 	active: false,
+	tabs: null,
 	items: [],
 	changed: false,
 
@@ -15,7 +16,19 @@ module.exports = {
 
 		delete blueprint.items;
 
+		this.tabs = blueprint.tabs || [{ id: 1, type: 'mtx' }, { id: 2, type: 'basic' }];
+		this.fixTabIds();
+
 		this.blueprint = blueprint;
+	},
+
+	fixTabIds: function () {
+		const { id } = this.tabs.find(t => t.type === 'basic');
+
+		this.items.forEach(item => {
+			if (!item.tab)
+				item.tab = id;
+		});
 	},
 
 	getItem: function (item) {
@@ -159,6 +172,7 @@ module.exports = {
 		return {
 			type: 'stash',
 			active: this.active,
+			tabs: this.tabs,
 			items: this.items
 		};
 	},
