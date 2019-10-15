@@ -9,6 +9,8 @@ module.exports = {
 	changed: false,
 
 	init: function (blueprint) {
+		this.tabs = blueprint.tabs || [{ id: 1, type: 'mtx' }, { id: 2, type: 'basic' }];
+
 		let items = blueprint.items || [];
 		let iLen = items.length;
 		for (let i = 0; i < iLen; i++) 
@@ -16,19 +18,21 @@ module.exports = {
 
 		delete blueprint.items;
 
-		this.tabs = blueprint.tabs || [{ id: 1, type: 'mtx' }, { id: 2, type: 'basic' }];
-		this.fixTabIds();
-
 		this.blueprint = blueprint;
 	},
 
-	fixTabIds: function () {
-		const { id } = this.tabs.find(t => t.type === 'basic');
+	getFirstTabOfType: function (tabType) {
+		return this.tabs.find(({ type }) => type === tabType);
+	},
 
-		this.items.forEach(item => {
-			if (!item.tab)
-				item.tab = id;
-		});
+	getItemTab: function (item) {
+		if (item.type === 'mtx') {
+			const tabMtx = this.getFirstTabOfType('mtx');
+			if (tabMtx)
+				return tabMtx.id;
+		}
+
+		return this.getFirstTabOfType('basic').id;
 	},
 
 	getItem: function (item) {
@@ -61,6 +65,7 @@ module.exports = {
 					id = fItem.id + 1;
 			}
 			item.id = id;
+			item.tab = this.getItemTab(item);
 		}
 
 		if (!exists)
