@@ -39,7 +39,8 @@ define([
 			let container = this.find('.grid')
 				.empty();
 
-			let items = this.items;
+			let items = this.items
+				.filter(i => i.tab === this.activeTab);
 			let iLen = Math.max(items.length, 50);
 
 			for (let i = 0; i < iLen; i++) {
@@ -48,7 +49,7 @@ define([
 				let itemEl = $(tplItem)
 					.appendTo(container);
 
-				if (!item || item.tab !== this.activeTab)
+				if (!item)
 					continue;
 
 				let imgX = -item.sprite[0] * 64;
