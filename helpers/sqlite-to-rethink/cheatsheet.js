@@ -32,7 +32,7 @@ r.db('live').table('character')
 r.db('live').table('modLog')
 	.group(f => f('value')('source')).count().ungroup().orderBy('reduction');
 
-//List Items with dex > 30
+//List Items with int > 30
 r.db('live').table('character')
 	.concatMap(row => {
 		return row('value')('components')

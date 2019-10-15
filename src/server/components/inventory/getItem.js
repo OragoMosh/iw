@@ -11,6 +11,18 @@ const getNextId = items => {
 	return id;
 };
 
+const autoStash = ({ stash }, item) => {
+	if (!stash)
+		return false;
+
+	const shouldAutoStash = stash.shouldAutoStash(item);
+	if (!shouldAutoStash)
+		return false;
+
+	const didDeposit = stash.deposit(item, true);
+	return didDeposit;
+};
+
 module.exports = (cpnInv, item, hideMessage, noStack, hideAlert) => {
 	const obj = cpnInv.obj;
 	obj.instance.eventEmitter.emit('onBeforeGetItem', item, obj);
@@ -24,6 +36,9 @@ module.exports = (cpnInv, item, hideMessage, noStack, hideAlert) => {
 	//Players can't have fromMob items in their inventory but bags can (dropped by a mob)
 	if (obj.player)
 		delete item.fromMob;
+
+	if (autoStash(obj, item))
+		return;
 
 	//Store the quantity to send to the player
 	let quantity = item.quantity;

@@ -4,9 +4,9 @@ module.exports = {
 	type: 'stash',
 
 	active: false,
+
 	tabs: null,
 	items: [],
-	changed: false,
 
 	init: function (blueprint) {
 		this.tabs = blueprint.tabs || [{ id: 1, type: 'mtx' }, { id: 2, type: 'basic' }];
@@ -21,18 +21,22 @@ module.exports = {
 		this.blueprint = blueprint;
 	},
 
-	getFirstTabOfType: function (tabType) {
+	getFirstTabOfType: function (tabType, doSpaceCheck) {
 		return this.tabs.find(({ type }) => type === tabType);
 	},
 
 	getItemTab: function (item) {
 		if (item.type === 'mtx') {
-			const tabMtx = this.getFirstTabOfType('mtx');
+			const tabMtx = this.getFirstTabOfType('mtx', true);
 			if (tabMtx)
 				return tabMtx.id;
 		}
 
-		return this.getFirstTabOfType('basic').id;
+		const tab = this.getFirstTabOfType('basic', true);
+		if (tab)
+			return tab.id;
+
+		return null;
 	},
 
 	getItem: function (item) {
@@ -72,10 +76,11 @@ module.exports = {
 			this.items.push(item);
 	},
 
-	deposit: function (item) {
-		if (!this.active)
-			return;
-		else if (this.items.length >= 50) {
+	deposit: function (item, ignoreInactive = false) {
+		if (!ignoreInactive && !this.active)
+			return false;
+		
+		if (this.items.length >= 50) {
 			this.obj.instance.syncer.queue('onGetMessages', {
 				id: this.obj.id,
 				messages: [{
@@ -85,14 +90,12 @@ module.exports = {
 				}]
 			}, [this.obj.serverId]);
 
-			return;
+			return false;
 		}
 
 		this.getItem(item);
 
 		this.obj.syncer.setArray(true, 'stash', 'getItems', item);
-
-		this.changed = true;
 
 		return true;
 	},
@@ -105,8 +108,6 @@ module.exports = {
 		this.items.spliceWhere(i => i === item);
 
 		this.obj.syncer.setArray(true, 'stash', 'destroyItems', id);
-
-		this.changed = true;
 	},
 
 	withdraw: function (id) {
@@ -133,8 +134,6 @@ module.exports = {
 		this.items.spliceWhere(i => i === item);
 
 		this.obj.syncer.setArray(true, 'stash', 'destroyItems', id);
-
-		this.changed = true;
 	},
 
 	setActive: function (active) {
@@ -158,7 +157,7 @@ module.exports = {
 				id: this.obj.id,
 				messages: [{
 					class: 'color-redA',
-					message: 'You have more than 50 items in your stash. In the next version (v0.3.1) you will lose all items that put you over the limit',
+					message: 'You have more than 50 items in your stash. In the next version (v0.4) you will lose all items that put you over the limit',
 					type: 'info'
 				}]
 			}, [obj.serverId]);
